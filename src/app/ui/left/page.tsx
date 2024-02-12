@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 export default function Left() {
   return (
-    <div className="wrapper__left lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
+    <div className="wrapper__left lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 ">
       <div>
         {/* tracking-tight es para acomodar el espacio entre letras */}
         <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
@@ -45,10 +45,10 @@ export default function Left() {
           </ul>
         </nav>
       </div>
-      <ul className="ml-1 mt-8 flex items-center">
+      <ul className="ml-1 mt-8 flex items-center text-slate-300">
         <a href="https://github.com/Zylown" target="_blank" title="Github">
-          <li className="mr-5 text-2xl shrink-0">
-            <FaGithub />
+          <li className="mr-5 text-3xl shrink-0">
+            <FaGithub className="hover:text-white hover:scale-110 transition-all ease-in-out" />
           </li>
         </a>
         <a
@@ -56,8 +56,8 @@ export default function Left() {
           target="_blank"
           title="Linkedin"
         >
-          <li className="mr-5 text-2xl shrink-0">
-            <FaLinkedin />
+          <li className="mr-5 text-3xl shrink-0">
+            <FaLinkedin className="hover:text-white hover:scale-110 transition-all ease-in-out" />
           </li>
         </a>
         <a
@@ -65,8 +65,8 @@ export default function Left() {
           target="_blank"
           title="Instagram"
         >
-          <li className="mr-5 text-2xl shrink-0">
-            <FaInstagram />
+          <li className="mr-5 text-3xl shrink-0">
+            <FaInstagram className="hover:text-white hover:scale-110 transition-all ease-in-out" />
           </li>
         </a>
       </ul>
