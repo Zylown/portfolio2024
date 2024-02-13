@@ -1,6 +1,6 @@
 import Image from "next/image";
-import EncriptadorImg from "../../assets/encriptador_photo.jpeg";
-import Aerojet from "../../assets/aerojet_photo.jpeg";
+import EncriptadorImg from "../../assets/encriptador_photo.jpg";
+import Aerojet from "../../assets/aerojet_photo.jpg";
 import { FaGithub, FaArrowRight } from "react-icons/fa";
 
 export default function Proyectos() {
