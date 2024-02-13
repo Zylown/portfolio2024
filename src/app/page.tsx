@@ -1,3 +1,4 @@
+"use client";
 import Left from "./ui/left/page";
 import Right from "./ui/right/page";
 import "./style.css";
