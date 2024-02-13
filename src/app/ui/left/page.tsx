@@ -1,4 +1,3 @@
-"use client";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { Link as LinkScroll } from "react-scroll";
 import "../../style.css";
@@ -72,8 +71,10 @@ export default function Left() {
                 className="group flex items-center py-3 cursor-pointer"
               >
                 <span
-                  className={`nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 ${
-                    activeSection === "sobremi" ? "w-16 bg-slate-200" : ""
+                  className={`nav-indicator mr-4 h-px transition-all group-hover:w-16 group-hover:bg-slate-200 ${
+                    activeSection === "sobremi"
+                      ? "w-16 bg-slate-200"
+                      : "w-8 bg-slate-600"
                   }`}
                 ></span>
                 <span
@@ -98,8 +99,10 @@ export default function Left() {
                 className="group flex items-center py-3 cursor-pointer"
               >
                 <span
-                  className={`nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 ${
-                    activeSection === "habilidades" ? "w-16 bg-slate-200" : ""
+                  className={`nav-indicator mr-4 h-px transition-all group-hover:w-16 group-hover:bg-slate-200 ${
+                    activeSection === "habilidades"
+                      ? "w-16 bg-slate-200"
+                      : "w-8 bg-slate-600"
                   }`}
                 ></span>
                 <span
@@ -125,8 +128,10 @@ export default function Left() {
               >
                 {" "}
                 <span
-                  className={`nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 ${
-                    activeSection === "proyectos" ? "w-16 bg-slate-200" : ""
+                  className={`nav-indicator mr-4 h-px transition-all group-hover:w-16 group-hover:bg-slate-200 ${
+                    activeSection === "proyectos"
+                      ? "w-16 bg-slate-200"
+                      : "w-8 bg-slate-600"
                   }`}
                 ></span>
                 <span
