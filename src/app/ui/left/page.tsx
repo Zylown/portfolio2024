@@ -1,3 +1,4 @@
+"use client";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { Link as LinkScroll } from "react-scroll";
 import "../../style.css";
