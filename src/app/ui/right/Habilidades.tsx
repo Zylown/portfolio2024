@@ -3,6 +3,9 @@ import React from "react";
 export default function Habilidades() {
   return (
     <div className="wrapper__habilidades">
+      <h1 className="block lg:hidden text-2xl mb-4 font-bold tracking-tight text-slate-200">
+        Habilidades
+      </h1>
       <p className="mb-4">
         Tecnologías que he estado utilizando en diversos proyectos
       </p>
