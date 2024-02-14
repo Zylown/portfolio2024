@@ -1,6 +1,9 @@
 export default function Sobremi() {
   return (
     <div className="wrapper__section__right--top">
+      <h1 className="block lg:hidden text-2xl mb-4 font-bold tracking-tight text-slate-200">
+        Sobre mí
+      </h1>
       <p className="text-slate-300">
         Hola! Soy un aspirante a convertirme en un desarrollador web full stack.
         Durante los últimos años, me he sumergido en el mundo de la
