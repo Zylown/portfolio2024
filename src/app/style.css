@@ -20,7 +20,7 @@
   width: 20px;
   height: 20px;
   background: rgba(255, 255, 255, 0.2);
-  animation: animate 25s linear infinite;
+  animation: animate 55s linear infinite;
   bottom: -150px;
 }
 
@@ -29,6 +29,7 @@
   width: 80px;
   height: 80px;
   animation-delay: 0s;
+  animation-duration: 32s;
 }
 
 .circles li:nth-child(2) {
@@ -36,7 +37,7 @@
   width: 20px;
   height: 20px;
   animation-delay: 2s;
-  animation-duration: 12s;
+  animation-duration: 32s;
 }
 
 .circles li:nth-child(3) {
@@ -51,7 +52,7 @@
   width: 60px;
   height: 60px;
   animation-delay: 0s;
-  animation-duration: 18s;
+  animation-duration: 32s;
 }
 
 .circles li:nth-child(5) {
@@ -99,7 +100,7 @@
   }
 
   100% {
-    transform: translateY(-1440px) rotate(720deg);
+    transform: translateY(-3000px) rotate(720deg);
     opacity: 0;
     border-radius: 50%;
   }
