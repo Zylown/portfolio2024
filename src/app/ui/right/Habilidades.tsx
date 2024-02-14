@@ -6,7 +6,7 @@ export default function Habilidades() {
       <p className="mb-4">
         Tecnologías que he estado utilizando en diversos proyectos
       </p>
-      <div className="container__habilidades flex justify-between">
+      <div className="container__habilidades flex justify-between flex-wrap gap-4 sm:gap-0">
         <div className="flex-col">
           <div className="container__lenguages">
             <p className="text-white font-semibold">LENGUAJES</p>

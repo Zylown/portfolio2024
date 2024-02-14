@@ -20,7 +20,7 @@ export default function Right() {
       </section>
       <section
         id="proyectos"
-        className="section__right--habilidades mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+        className="section__right--habilidades scroll-mt-16 lg:scroll-mt-24"
       >
         <Proyectos />
       </section>

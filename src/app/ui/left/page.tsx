@@ -15,16 +15,16 @@ export default function Left() {
 
       const sobreMiActive =
         sobreMiSection &&
-        sobreMiSection.getBoundingClientRect().top >= 0 &&
-        sobreMiSection.getBoundingClientRect().bottom <= window.innerHeight;
+        sobreMiSection.getBoundingClientRect().top < window.innerHeight &&
+        sobreMiSection.getBoundingClientRect().top >= 0;
       const habilidadesActive =
         habilidadesSection &&
-        habilidadesSection.getBoundingClientRect().top >= 0 &&
-        habilidadesSection.getBoundingClientRect().bottom <= window.innerHeight;
+        habilidadesSection.getBoundingClientRect().top < window.innerHeight &&
+        habilidadesSection.getBoundingClientRect().top >= 0;
       const proyectosActive =
         proyectosSection &&
-        proyectosSection.getBoundingClientRect().top >= 0 &&
-        proyectosSection.getBoundingClientRect().bottom <= window.innerHeight;
+        proyectosSection.getBoundingClientRect().top < window.innerHeight &&
+        proyectosSection.getBoundingClientRect().bottom > 0;
 
       if (sobreMiActive) {
         setActiveSection("sobremi");
@@ -123,7 +123,7 @@ export default function Left() {
                 to="proyectos"
                 spy={true}
                 smooth={true}
-                offset={-200}
+                offset={-90}
                 duration={500}
                 className="group flex items-center py-3 cursor-pointer"
               >
