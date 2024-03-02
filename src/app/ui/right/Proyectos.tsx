@@ -7,6 +7,7 @@ import Aluraflix from "../../assets/aluraflix.jpg";
 import Filomena from "../../assets/filomena.jpg";
 import Dynamo from "../../assets/dynamo.jpg";
 import Bot from "../../assets/bot.jpg";
+import Muebles from "../../assets/muebles.jpg";
 import { FaGithub, FaArrowRight } from "react-icons/fa";
 
 export default function Proyectos() {
@@ -413,6 +414,53 @@ export default function Proyectos() {
               <ul className="flex gap-2 mt-4">
                 <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
                   Discord JS
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container__proyects flex gap-4 rounded-md hover:shadow-lg pb-4">
+        <Image
+          className="rounded-md h-16 w-32 mt-1"
+          src={Muebles}
+          alt="Imagen de AluraFlix"
+          loading="lazy"
+        />
+        <div className="container__text">
+          <h4 className="text-white font-semibold">
+            Plantilla de tienda para muebles
+          </h4>
+          <p className="text-sm tracking-tight">
+            Creación de una tienda e-commerce para muebles.
+          </p>
+          <div className="conteiner__icons--tec flex flex-col justify-between items-start">
+            <div className="icons flex gap-4 mt-4">
+              <a
+                className="hover:scale-110 transition-all ease-in-out ml-1"
+                href="https://github.com/Zylown/tiendamuebles"
+                target="_blank"
+              >
+                <FaGithub className="text-white text-lg " />
+              </a>
+              <a
+                className="hover:scale-110 transition-all ease-in-out ml-1"
+                href="https://github.com/Zylown/tiendamuebles"
+                target="_blank"
+              >
+                <FaArrowRight className="text-white text-lg -rotate-45" />
+              </a>
+            </div>
+            <div className="tecnology">
+              <ul className="flex gap-2 mt-4">
+                <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
+                  HTML
+                </li>
+                <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
+                  CSS
+                </li>
+                <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
+                  Javascript
                 </li>
               </ul>
             </div>
