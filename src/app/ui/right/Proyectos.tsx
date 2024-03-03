@@ -445,7 +445,7 @@ export default function Proyectos() {
               </a>
               <a
                 className="hover:scale-110 transition-all ease-in-out ml-1"
-                href="https://github.com/Zylown/tiendamuebles"
+                href="https://zylown.github.io/tiendamuebles/"
                 target="_blank"
               >
                 <FaArrowRight className="text-white text-lg -rotate-45" />
