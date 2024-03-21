@@ -8,6 +8,7 @@ import Filomena from "../../assets/filomena.jpg";
 import Dynamo from "../../assets/dynamo.jpg";
 import Bot from "../../assets/bot.jpg";
 import Muebles from "../../assets/muebles.jpg";
+import Rapidin from "../../assets/rapidin.jpg";
 import { FaGithub, FaArrowRight } from "react-icons/fa";
 
 export default function Proyectos() {
@@ -404,7 +405,7 @@ export default function Proyectos() {
             <div className="icons flex gap-4 mt-4">
               <a
                 className="hover:scale-110 transition-all ease-in-out ml-1"
-                href="https://discord.gg/27VVC3jq"
+                href="https://discord.gg/whKsvQPgVK"
                 target="_blank"
               >
                 <FaArrowRight className="text-white text-lg -rotate-45" />
@@ -461,6 +462,54 @@ export default function Proyectos() {
                 </li>
                 <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
                   Javascript
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container__proyects flex gap-4 rounded-md hover:shadow-lg pb-4">
+        <Image
+          className="rounded-md h-16 w-32 mt-1"
+          src={Rapidin}
+          alt="Imagen de AluraFlix"
+          loading="lazy"
+        />
+        <div className="container__text">
+          <h4 className="text-white font-semibold">Rapidin</h4>
+          <p className="text-sm tracking-tight">
+            Página que compara precios de productos en diferentes tiendas de
+            menor a mayor, en Perú (es demasiado lento por ahora).
+          </p>
+          <div className="conteiner__icons--tec flex flex-col justify-between items-start">
+            <div className="icons flex gap-4 mt-4">
+              <a
+                className="hover:scale-110 transition-all ease-in-out ml-1"
+                href="https://rapidin.onrender.com/"
+                target="_blank"
+              >
+                <FaArrowRight className="text-white text-lg -rotate-45" />
+              </a>
+            </div>
+            <div className="tecnology">
+              <ul className="flex gap-2 mt-4 flex-wrap">
+                <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
+                  NextJS
+                </li>
+                <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
+                  TailwindCSS
+                </li>
+                <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
+                  Javascript
+                </li>
+                <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
+                  Typescript
+                </li>
+                <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
+                  Puppeteer
+                </li>
+                <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
+                  React
                 </li>
               </ul>
             </div>
