@@ -313,12 +313,6 @@ export default function Proyectos() {
                   Elfsight Widget
                 </li>
                 <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
-                  Resend
-                </li>
-                <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
-                  Express
-                </li>
-                <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
                   React Helmet
                 </li>
                 <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">

@@ -5,7 +5,7 @@ import "../../style.css";
 import { useState, useEffect } from "react";
 
 export default function Left() {
-  const [activeSection, setActiveSection] = useState("");
+  const [activeSection, setActiveSection] = useState("sobremi");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,7 +16,7 @@ export default function Left() {
       const sobreMiActive =
         sobreMiSection &&
         sobreMiSection.getBoundingClientRect().top < window.innerHeight &&
-        sobreMiSection.getBoundingClientRect().top >= 0;
+        sobreMiSection.getBoundingClientRect().top >= 0
       const habilidadesActive =
         habilidadesSection &&
         habilidadesSection.getBoundingClientRect().top < window.innerHeight &&
