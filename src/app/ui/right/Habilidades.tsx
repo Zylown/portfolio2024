@@ -32,6 +32,7 @@ export default function Habilidades() {
             <li>Express</li>
             <li>Next</li>
             <li>TailwindCSS</li>
+            <li>Nestjs</li>
           </ul>
         </div>
         <div className="flex-col">
