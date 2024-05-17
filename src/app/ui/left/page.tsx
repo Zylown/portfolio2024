@@ -1,5 +1,5 @@
 "use client";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaTiktok } from "react-icons/fa";
 import { Link as LinkScroll } from "react-scroll";
 import "../../style.css";
 import { useState, useEffect } from "react";
@@ -16,7 +16,7 @@ export default function Left() {
       const sobreMiActive =
         sobreMiSection &&
         sobreMiSection.getBoundingClientRect().top < window.innerHeight &&
-        sobreMiSection.getBoundingClientRect().top >= 0
+        sobreMiSection.getBoundingClientRect().top >= 0;
       const habilidadesActive =
         habilidadesSection &&
         habilidadesSection.getBoundingClientRect().top < window.innerHeight &&
@@ -171,6 +171,15 @@ export default function Left() {
         >
           <li className="mr-5 text-3xl shrink-0">
             <FaInstagram className="hover:text-white hover:scale-110 transition-all ease-in-out" />
+          </li>
+        </a>
+        <a
+          href="https://www.tiktok.com/@sevastiian"
+          target="_blank"
+          title="Tiktok"
+        >
+          <li className="mr-5 text-3xl shrink-0">
+            <FaTiktok className="hover:text-white hover:scale-110 transition-all ease-in-out" />
           </li>
         </a>
       </ul>
