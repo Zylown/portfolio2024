@@ -156,7 +156,7 @@ export default function Left() {
           </li>
         </a>
         <a
-          href="https://www.linkedin.com/in/sevastian-caballero-hoyos/"
+          href="https://www.linkedin.com/in/sevastian-dev/"
           target="_blank"
           title="Linkedin"
         >
