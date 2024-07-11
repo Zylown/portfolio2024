@@ -28,7 +28,6 @@ export default function Habilidades() {
           </div>
           <ul className="flex flex-col gap-0.5">
             <li>React</li>
-            <li>Node</li>
             <li>Express</li>
             <li>Next</li>
             <li>TailwindCSS</li>
