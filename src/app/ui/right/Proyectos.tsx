@@ -11,6 +11,7 @@ import Muebles from "../../assets/muebles.jpg";
 import Rapidin from "../../assets/rapidin.jpg";
 import Pagos from "../../assets/pagos.jpg";
 import inventario from "../../assets/demo_inventario.jpg";
+import dentPlanner from "../../assets/dentPlanner.png";
 import { FaGithub, FaArrowRight } from "react-icons/fa";
 
 export default function Proyectos() {
@@ -614,6 +615,62 @@ export default function Proyectos() {
 
                 <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
                   React PDF
+                </li>
+                <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
+                  Zod
+                </li>
+                <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
+                  Zustand
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container__proyects flex gap-4 rounded-md hover:shadow-lg pb-4">
+        <Image
+          className="rounded-md h-16 w-32 mt-1"
+          src={dentPlanner}
+          alt="Imagen de Dent Planner"
+          loading="lazy"
+        />
+        <div className="container__text">
+          <h4 className="text-white font-semibold">DentPlanner</h4>
+          <p className="text-sm tracking-tight">
+            Sistema para clínica odontologica que permite llevar un control de
+            los pacientes, agendar citas, registrar usuarios en caso existan
+            otras clínicas, tiene una vista administrador, secretario y
+            odontólogo. Para más informacion en la landing page.
+          </p>
+          <div className="conteiner__icons--tec flex flex-col justify-between items-start">
+            <div className="icons flex gap-4 mt-4">
+              <a
+                className="hover:scale-110 transition-all ease-in-out ml-1"
+                href="https://team-12-footalent.vercel.app/"
+                target="_blank"
+              >
+                <FaArrowRight className="text-white text-lg -rotate-45" />
+              </a>
+            </div>
+            <div className="tecnology">
+              <ul className="flex gap-2 mt-4 flex-wrap">
+                <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
+                  Axios
+                </li>
+                <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
+                  Framer Motion
+                </li>
+                <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
+                  Toast
+                </li>
+                <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
+                  React
+                </li>
+                <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
+                  TailwindCSS
+                </li>
+                <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
+                  Jwt
                 </li>
                 <li className="flex items-center rounded-full bg-slate-600 px-3 py-1 text-xs font-medium leading-5 text-white">
                   Zod
