@@ -165,7 +165,7 @@ export default function Left() {
           </li>
         </a>
         <a
-          href="https://www.instagram.com/sevastianhoyos/"
+          href="https://www.instagram.com/sevaastiaan/"
           target="_blank"
           title="Instagram"
         >
@@ -174,7 +174,7 @@ export default function Left() {
           </li>
         </a>
         <a
-          href="https://www.tiktok.com/@sevastiian"
+          href="https://www.tiktok.com/@sevaastiaan"
           target="_blank"
           title="Tiktok"
         >
